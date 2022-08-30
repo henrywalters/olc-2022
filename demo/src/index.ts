@@ -1,5 +1,5 @@
-import {HelloWorld} from "ts-lib-template"
+import {OLC2022} from "olc-2022"
 
-document.getElementById('helloworld').addEventListener('click', () => {
-    alert(HelloWorld());
-})
+OLC2022(document.getElementById('olc2022') as HTMLCanvasElement);
+
+console.log("WORKING");
